@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-ssh-server",
+  "version": "1.0.0",
+  "description": "A modular SSH server implementation using ssh2",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "quick-start": "node start.js",
+    "dev": "nodemon src/server.js",
+    "generate-keys": "node scripts/generate-keys.js",
+    "generate-user-keys": "node scripts/generate-user-keys.js",
+    "show-config": "node scripts/show-config.js",
+    "lite-mode": "node scripts/switch-mode.js lite",
+    "full-mode": "node scripts/switch-mode.js full"
+  },
+  "keywords": [
+    "ssh",
+    "server",
+    "nodejs",
+    "ssh2",
+    "terminal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "fs-extra": "^11.2.0",
+    "node-pty": "^1.0.0",
+    "ssh2": "^1.15.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
