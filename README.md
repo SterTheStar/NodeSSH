@@ -229,7 +229,7 @@ Test the server with various SSH clients:
 
 ## License
 
-MIT License - see LICENSE file for details.
+GPLV3 - see LICENSE file for details.
 
 ## Contributing
 
